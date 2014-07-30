@@ -27,7 +27,9 @@ author :
 #
 production_url : http://goodogod.github.io
 
-markdown: redcarpet
+#markdown: redcarpet
+markdown: redcarpet-pygments
+#lineanchors: true
 #markdown: redcarpet2
 #redcarpet:
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables",     "with_toc_data"]

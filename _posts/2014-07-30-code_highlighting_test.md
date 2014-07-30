@@ -57,6 +57,17 @@ print "hello, world !"
             print "good day"
       
     print "hello, world !"
+    
+---
+
+### Table code
+
+Directory | Description
+----------|------------
+`/bin`    | blah
+`/boot`   | blah blah
+`/dev`    | blee blo
+
 
 
   
