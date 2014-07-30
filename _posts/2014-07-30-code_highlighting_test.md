@@ -16,7 +16,7 @@ print "hello, world !"
 
 ---
 
-##{% highlight %}
+##highlight
 
 {% highlight python %}
 def MyClass:
