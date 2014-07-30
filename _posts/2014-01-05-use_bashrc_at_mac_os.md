@@ -7,7 +7,7 @@ title: Use .bashrc at Mac OS
 假如我要新增 `alias ll='ls -l'` ，到 `.bashrc` ，按照 Linux 慣例，先到 ~/.bashrc 下新增一筆：
 
 {% highlight bash %}
-alias ll='ls -l
+alias ll='ls -l'
 {% endhighlight %}
 
 重啟終端機後發現依然沒有作用，原因是，在 Mac OS X 還必須修改 `~/.bash_profile` ：
