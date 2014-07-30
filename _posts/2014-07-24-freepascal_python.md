@@ -62,7 +62,7 @@ function Circle_Radius(AObject: Pointer): Integer; cdecl;
 為什麼要使用 C 的 呼叫慣例呢？這是因為 Python 天生就可以讀 C 編譯出來的 shared library ，而剛好 Free Pascal 能夠與 C 相容，所以只要 exports method 的參數都[與 C 對應](http://wiki.freepascal.org/Pascal_for_C_users)，Python 都可正常呼叫。
 
 ##2. Build Shared Library
-接下來在 Lazarus 中開啟一個 Library 工程，將上面的 source code use 進來，然後在 *yourproject*.lpr 的 exports 欄位中，選擇要讓 shared library 使用者呼叫：
+接下來在 Lazarus 中開啟一個 Library 工程，將上面的 source code use 進來，然後在 *yourproject*.lpr 的 exports 欄位中，選擇要讓 shared library 使用者呼叫的 methods：
 
 ```pascal
 exports
