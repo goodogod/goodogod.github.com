@@ -27,8 +27,8 @@ author :
 #
 production_url : http://goodogod.github.io
 
-#markdown: redcarpet
-markdown: redcarpet-pygments
+markdown: redcarpet
+#markdown: redcarpet-pygments
 #lineanchors: true
 #markdown: redcarpet2
 #redcarpet:
