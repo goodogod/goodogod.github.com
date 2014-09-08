@@ -3,7 +3,8 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+highlighter: pygments
+#pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
@@ -27,7 +28,7 @@ author :
 #
 production_url : http://goodogod.github.io
 
-markdown: redcarpet
+#markdown: redcarpet
 #markdown: redcarpet-pygments
 #lineanchors: true
 #markdown: redcarpet2
@@ -135,4 +136,4 @@ JB :
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
   
-img_url: http://goodogod.github.io/assets/images
+img_url: /assets/images
