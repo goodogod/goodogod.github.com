@@ -1,7 +1,9 @@
 ---
 layout: default
+category: dairy
 title: Ellie Goulding 等我
-tags: diary
+tagline: "Supporting tagline"
+tags: [ellie goulding]
 ---
 
 ###早上十點半的我
