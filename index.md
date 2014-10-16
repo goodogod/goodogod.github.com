@@ -1,7 +1,7 @@
 ---
 layout: page
 title: goodogod it.
-tagline: 想到什麼記什麼
+tagline: 試試一個普通人可以走多遠
 ---
 {% include JB/setup %}
 
